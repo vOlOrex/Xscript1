@@ -14,7 +14,7 @@ local T1UIColor = {
 	["Border Color"] = Color3.fromRGB(255, 206, 27),
 	["Click Effect Color"] = Color3.fromRGB(230, 230, 230),
 	["Setting Icon Color"] = Color3.fromRGB(230, 230, 230),
-	["Logo Image"] = "rbxassetid://81076440445274",
+	["Logo Image"] = "rbxassetid://95086163639223",
 	["Search Icon Color"] = Color3.fromRGB(240, 240, 230),
 	["Search Icon Highlight Color"] = Color3.fromRGB(255, 206, 27),
 	["GUI Text Color"] = Color3.fromRGB(235, 235, 230),
@@ -133,7 +133,7 @@ btnHideFrame.AnchorPoint = Vector2.new(0, 1)
 btnHideFrame.Size = UDim2.new(0, 50, 0, 50)
 btnHideFrame.Position = UDim2.new(0, 0, 1, 0)
 btnHideFrame.Name = "dut dit"
-btnHideFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+btnHideFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 btnHideFrame.BackgroundTransparency = getgenv().UIToggled and 0 or .25
 
 local imgHide = Instance.new('ImageLabel', btnHide)
